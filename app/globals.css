@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brisbane Builder design tokens (from Brisbane Builder.dc.html) */
+  --color-canvas: #ebe8df;
+  --color-surface: #f6f4ef;
+  --color-card: #ffffff;
+  --color-paper: #fbfaf7;
+
+  --color-navy: #0f2038;
+  --color-navy-2: #16294a;
+  --color-navy-3: #24395e;
+  --color-navy-muted: #8da0bc;
+  --color-navy-soft: #b9c2d0;
+  --color-navy-faint: #c9d2df;
+
+  --color-gold: #bfa05a;
+  --color-bronze: #8a6b2e;
+  --color-gold-soft: #f6efde;
+  --color-gold-tint: #fbf6ea;
+  --color-gold-line: #ede2c4;
+
+  --color-ink: #1c2536;
+  --color-muted: #6e7481;
+  --color-faint: #8a8371;
+
+  --color-line: #ddd9cd;
+  --color-border: #e7e3d8;
+  --color-hairline: #f0ede4;
+  --color-input: #cfc9bb;
+  --color-track: #eeebe2;
+
+  --color-good: #1e6b45;
+  --color-good-bg: #e9f4ee;
+  --color-good-line: #cbe3d5;
+
+  --color-warn: #8a6116;
+  --color-warn-bg: #faf1dc;
+  --color-warn-line: #e8d9b4;
+
+  --color-bad: #a63a32;
+  --color-bad-bg: #faeae8;
+  --color-bad-line: #e5b6b0;
+  --color-bad-soft: #f0c9c4;
+  --color-bad-rose: #f0a9a2;
+
+  --color-info: #22406e;
+  --color-info-bg: #e8eef7;
+
+  --color-amber: #9a4e0f;
+  --color-amber-bg: #fbefe3;
+
+  --color-slate: #5b6472;
+  --color-slate-bg: #eef0f3;
+
+  --font-sans: var(--font-hanken), "Hanken Grotesk", ui-sans-serif, system-ui,
+    sans-serif;
+  --font-display: var(--font-marcellus), Marcellus, ui-serif, Georgia, serif;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+@utility tracking-label {
+  letter-spacing: 0.12em;
+}
